@@ -52,10 +52,10 @@ void SurfacePolygonizer::ComputeBB()
 
         bbp1 =		Point3D(0.5*(min[0]+max[0])-bboxoffset*(0.5*(max[0]-min[0])),
                                    0.5*(min[1]+max[1])-bboxoffset*(0.5*(max[1]-min[1])),
-                                 -200);//0.5*(min[2]+max[2])-bboxoffset*(0.5*(max[2]-min[2])));
+                                 -500);//0.5*(min[2]+max[2])-bboxoffset*(0.5*(max[2]-min[2])));
         bbp2 =		Point3D(0.5*(min[0]+max[0])+bboxoffset*(0.5*(max[0]-min[0])),
                                            0.5*(min[1]+max[1])+bboxoffset*(0.5*(max[1]-min[1])),
-                                 200);//0.5*(min[2]+max[2])+bboxoffset*(0.5*(max[2]-min[2])));
+                                 500);//0.5*(min[2]+max[2])+bboxoffset*(0.5*(max[2]-min[2])));
 }
 
 
