@@ -1,0 +1,19 @@
+Smooth face normals
+
+Smooth normals on a point sets 100
+
+Taubin Smooth 0.5 -0.2 100
+
+UNION
+
+
+
+1----
+Simplification
+
+Quadric Based Edge Collapse
+
+Poisson Mesh 12 3 ou 1.5 0
+
+Smooths normals on a point sets 50
+------------
