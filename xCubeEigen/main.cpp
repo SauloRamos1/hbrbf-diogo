@@ -98,14 +98,14 @@ int main(int argc, char *argv[])
 //        "rbf_cacto_ID2_Ciclo3",
 //        "rbf_cacto_ID7_Ciclo2_1",
 //        "rbf_cacto_ID7_Ciclo2_2",
-        "rbf_coelho_ID2_Ciclo2",
-        "rbf_coelho_ID2_Ciclo7",
-        "rbf_coelho_ID4_Ciclo3_1",
-        "rbf_coelho_ID4_Ciclo3_2",
-        "rbf_coelho_ID7_Ciclo5_1",
-        "rbf_coelho_ID7_Ciclo5_2",
-        "rbf_coelho_ID7_Ciclo6_1",
-        "rbf_coelho_ID7_Ciclo6_2",
+//        "rbf_coelho_ID2_Ciclo2",
+//        "rbf_coelho_ID2_Ciclo7",
+//        "rbf_coelho_ID4_Ciclo3_1",
+//        "rbf_coelho_ID4_Ciclo3_2",
+//        "rbf_coelho_ID7_Ciclo5_1",
+//        "rbf_coelho_ID7_Ciclo5_2",
+//        "rbf_coelho_ID7_Ciclo6_1",
+//        "rbf_coelho_ID7_Ciclo6_2",
 //        "rbf_dino_ID2_Ciclo3",
 //        "rbf_dino_ID2_Ciclo8",
 //        "rbf_dino_ID3_Ciclo1_1",
@@ -114,16 +114,16 @@ int main(int argc, char *argv[])
 //        "rbf_dino_ID7_Ciclo6_2",
 //        "rbf_dino_ID7_Ciclo7_1",
 //        "rbf_dino_ID7_Ciclo7_2",
-//        "rbf_elefante_ID2_Ciclo5",
-//        "rbf_elefante_ID2_Ciclo10",
-//        "rbf_elefante_ID3_Ciclo6_1",
-//        "rbf_elefante_ID3_Ciclo6_2",
-//        "rbf_elefante_ID4_Ciclo1_1",
-//        "rbf_elefante_ID4_Ciclo1_2",
-//        "rbf_elefante_ID7_Ciclo8_1",
-//        "rbf_elefante_ID7_Ciclo8_2",
-//        "rbf_elefante_ID7_Ciclo9_1",
-//        "rbf_elefante_ID7_Ciclo9_2",
+        "rbf_elefante_ID2_Ciclo5",
+        "rbf_elefante_ID2_Ciclo10",
+        "rbf_elefante_ID3_Ciclo6_1",
+        "rbf_elefante_ID3_Ciclo6_2",
+        "rbf_elefante_ID4_Ciclo1_1",
+        "rbf_elefante_ID4_Ciclo1_2",
+        "rbf_elefante_ID7_Ciclo8_1",
+        "rbf_elefante_ID7_Ciclo8_2",
+        "rbf_elefante_ID7_Ciclo9_1",
+        "rbf_elefante_ID7_Ciclo9_2",
 //        "rbf_gato_ID2_Ciclo4",
 //        "rbf_gato_ID2_Ciclo7",
 //        "rbf_gato_ID2_Ciclo11",
@@ -180,7 +180,7 @@ int main(int argc, char *argv[])
 
 
     int i = 0;
-    for(int i = 0; i < 75 ; i++)
+    for(int i = 0; i < names->size() ; i++)
     {
 
         t.restart();
