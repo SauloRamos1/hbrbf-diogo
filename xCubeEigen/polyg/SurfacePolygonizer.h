@@ -43,7 +43,8 @@ class SurfacePolygonizer
         HBRBFEval *f;				/* surface we are poligonizing */
   	double cubeSize;				/* cube size for marching cubes */
   	
-  	Vector start;                  	/* start point on surface */
+//  	Vector start;                  	/* start point on surface */
+        Point3D start;                  	/* start point on surface */
   	
   
   	
@@ -53,7 +54,8 @@ class SurfacePolygonizer
     
         Test find(int sign, Point3D x);
         Corner setcorner(int i, int j, int k);
-        Vector setpoint(int i, int j, int k);
+//        Vector setpoint(int i, int j, int k);
+        Point3D  setpoint(int i, int j, int k);
         int dotet (Cube *cube, int c1, int c2, int c3, int c4, Triangles *triangles);
         int vertid (Corner &c1, Corner &c2);
         void setedge (int i1, int j1, int k1, int i2, int j2, int k2, int vid);

@@ -11,7 +11,8 @@ double *Solver::gaussSeidel(double **A, double *b, int matrixSize, int maxIter, 
 
         if(error < minError)
         {
-
+            return &error;
         }
     }
+    return x;
 }

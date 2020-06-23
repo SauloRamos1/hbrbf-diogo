@@ -1,8 +1,0 @@
-rbf_coelho_ID2_Ciclo2 27 27 12544 810
-rbf_coelho_ID2_Ciclo7 139 207 583696 149368
-rbf_coelho_ID4_Ciclo3_1 42 46 33856 2297
-rbf_coelho_ID4_Ciclo3_2 42 46 33856 2343
-rbf_coelho_ID7_Ciclo5_1 86 260 756900 22495
-rbf_coelho_ID7_Ciclo5_2 86 260 756900 22691
-rbf_coelho_ID7_Ciclo6_1 57 133 211600 6692
-rbf_coelho_ID7_Ciclo6_2 57 133 211600 6742

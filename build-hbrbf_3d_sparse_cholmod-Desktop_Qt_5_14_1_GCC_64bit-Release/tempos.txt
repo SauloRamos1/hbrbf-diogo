@@ -1,5 +1,0 @@
-rbf_peixe_ID3_Ciclo3_2 38 52 39204 2504
-rbf_peixe_ID3_Ciclo3_1 38 52 39204 2498
-rbf_peixe_ID3_Ciclo1_2 19 23 8464 414
-rbf_peixe_ID3_Ciclo1_1 19 23 8464 378
-rbf_peixe_ID2_Ciclo5 292 370 1.97684e+06 1215957
