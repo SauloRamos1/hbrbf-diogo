@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
     //string names[] = {"cube_050.1","cube_050.2","cube_050.3","cube_050.4","cube_050.5", "cube_050.6","cube_050.7"};
     string names[] = {
 
-
+"exportData0"
 //        "rbf_coracao_ID2_Ciclo0"
 //        "rbf_dino_ID2_Ciclo8",
 //        "rbf_dino_ID7_Ciclo7_1",
@@ -144,17 +144,17 @@ int main(int argc, char *argv[])
 //        "rbf_elefante_ID7_Ciclo8_2",
 //        "rbf_elefante_ID7_Ciclo9_1",
 //        "rbf_elefante_ID7_Ciclo9_2",
-        "rbf_gato_ID2_Ciclo4",
-        "rbf_gato_ID2_Ciclo7",
-        "rbf_gato_ID2_Ciclo11",
-        "rbf_gato_ID3_Ciclo3_1",
-        "rbf_gato_ID3_Ciclo3_2",
-        "rbf_gato_ID7_Ciclo8_1",
-        "rbf_gato_ID7_Ciclo8_2",
-        "rbf_gato_ID7_Ciclo9_1",
-        "rbf_gato_ID7_Ciclo9_2",
-        "rbf_gato_ID7_Ciclo10_1",
-        "rbf_gato_ID7_Ciclo10_2",
+//        "rbf_gato_ID2_Ciclo4",
+//        "rbf_gato_ID2_Ciclo7",
+//        "rbf_gato_ID2_Ciclo11",
+//        "rbf_gato_ID3_Ciclo3_1",
+//        "rbf_gato_ID3_Ciclo3_2",
+//        "rbf_gato_ID7_Ciclo8_1",
+//        "rbf_gato_ID7_Ciclo8_2",
+//        "rbf_gato_ID7_Ciclo9_1",
+//        "rbf_gato_ID7_Ciclo9_2",
+//        "rbf_gato_ID7_Ciclo10_1",
+//        "rbf_gato_ID7_Ciclo10_2",
 //        "rbf_passaro_ID2_Ciclo7",
 //        "rbf_passaro_ID3_Ciclo1_1",
 //        "rbf_passaro_ID3_Ciclo1_2",
@@ -239,7 +239,7 @@ int main(int argc, char *argv[])
         cout << "ntans: " << m.numTangents << endl;
 
         //radius in 0... 1
-        rbf->radius = 3;//radius[i] ;//radius[pos];
+        rbf->radius = 1;//radius[i] ;//radius[pos];
 
         cout << "radius: " << rbf->radius << endl;
         HBRBF hb(rbf,&m, usePoly);
